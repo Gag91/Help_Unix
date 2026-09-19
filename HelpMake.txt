@@ -1,0 +1,15 @@
+Compiler: gcc
+Version: std=c++26
+Output: hu.exe
+
+InputFiles {
+    src/*.cpp
+}
+
+Includes {
+    include
+}
+
+Flags {
+    -lstdc++exp
+}
